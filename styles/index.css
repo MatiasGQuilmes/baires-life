@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+/* --------------------dekstop----------- */
+
+/* ------- header----------- */
+header{
+    display: flex;
+    background-color: black; 
+    height: 8rem;
+    justify-content:center;
+    position: fixed;
+    width: 100%;
+}
+
+
+.logo-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.logo-img img{
+    height: 100%;
+  
+}
+
+
+.btn-menu{
+    display: none;
+}
+
+#btn-menu{
+    display: none;
+}
+
+
+
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0,0,0.5);
+}
+
+.nav-menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-menu ul img{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.nav-menu li a{
+    padding:68px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-menu li:hover{
+    transform: scale(1.1);
+}
+
+.icons-header {
+    display: flex;
+
+}
+
+.icon-ds{
+  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+
+
+
+.icon-ds:hover{
+    transform: scale(1.1);
+}
+
+
+.icon-ig{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+
+.icon-ig:hover{
+    transform: scale(1.1);
+}
+
+
+.title-bienv{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.title-bienv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: system-ui;
+}
+
+.text-discord{
+    margin-top: 4rem
+}
+
+#icon-ds-text{
+    font-size:80px;
+}
