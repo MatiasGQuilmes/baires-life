@@ -9,7 +9,8 @@ body{
 
  .container-slider{
 	width: 100%;
-	overflow-x: hidden
+	overflow-x: hidden;
+	height: 100vh;
 }
 
 .slider{
@@ -21,6 +22,7 @@ body{
 
 .slider__section{
 	width: 100%;
+	
 }
 
 .slider__img{

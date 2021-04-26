@@ -25,20 +25,23 @@ header{
     justify-content:center;
     position: fixed;
     width: 100%;
+    z-index: 9;
 }
 
 
-.logo-img{
-    width: 20%;
+.container-logo-img{
     display: flex;
     justify-content: center;
- 
+    align-items:center;
+    width: 10%;
 }
 
-.logo-img img{
+.logo-img{
+    border-radius: 50%;
     height: 100%;
-  
 }
+
+
 
 
 .btn-menu{
@@ -107,10 +110,10 @@ header label:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 42px;
     color: white;
     text-decoration: none;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 
@@ -126,16 +129,48 @@ header label:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 42px;
     color: white;
     text-decoration: none;
-    padding: 0 2rem;
+    padding: 0 1rem;
 }
 
 .icon-ig:hover{
     transform: scale(1.1);
 }
 
+.icon-twitter{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.icon-twitter:hover{
+    transform: scale(1.1);
+}
+
+.icon-youtube{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.icon-youtube:hover{
+    transform: scale(1.1);
+}
+/* ----------------main----------------- */
 
 .title-bienv{
     display: flex;
@@ -150,12 +185,196 @@ header label:hover{
     margin-top: 3rem;
     font-size: 2rem;
     font-family: system-ui;
+  /*   position: relative;
+    bottom:139rem; */
+}
+
+.title-bienv a{
+    color: white;
 }
 
 .text-discord{
-    margin-top: 4rem
+    margin-top: 2rem;
+    margin-bottom: 2rem
 }
 
 #icon-ds-text{
     font-size:80px;
 }
+
+.main-text{
+    color: white;
+    width: 60%;
+    line-height: 31px;
+}
+
+.container-main-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container-comunidad{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.comunidad-title {
+    color: white;
+    margin-top: 7rem;
+    font-size: 2rem;
+  
+}
+
+.comunidad-title p{
+    display: flex;
+    justify-content:center
+}
+
+.strong-comunidad{
+    
+    padding: 0 0 0 10px;
+    
+}
+
+
+.comunidad-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+.columna1 {
+    display: flex;
+}
+
+.columna1 img {
+    width: 27rem;
+    padding: 1rem;
+}
+
+.columna1 img:hover {
+    transform: scale(1.1);
+}
+.columna2 {
+    display: flex;
+}
+
+.columna2 img {
+    width: 27rem;
+    padding: 1rem;
+}
+.columna2 img:hover {
+    transform: scale(1.1);
+}
+
+.columna3 {
+    display: flex;
+}
+
+.columna3 img {
+    width: 27rem;
+    padding: 1rem;
+}
+.columna3 img:hover {
+    transform: scale(1.1);
+}
+
+
+/* ----------------------footer-----------------------------*/
+
+footer {
+
+    border-top: 3px solid gray;
+    
+}
+
+.footer-section-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo-img{
+    width: 40%;
+}
+.redes {
+    color: white;
+    display: flex;
+    font-size: 21px;
+}
+.redes-text {
+    color: red;
+}
+
+.redes i{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    font-size:25px
+}
+
+.redes i:hover{
+    transform: scale(1.1);
+}
+
+.contacto {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+
+    margin-right: 10rem;
+}
+
+
+.founder {
+    color: white;
+    margin-right: 6rem;
+    font-size: 21px;
+}
+
+/* .pais{
+    color: white;
+} */
+
+.creditos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+
+.creditos a{
+    text-decoration: none;
+    color: gray
+}
+
+.footer-bottom{
+    width: 100%;
+    height:4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #212020;
+}
+
