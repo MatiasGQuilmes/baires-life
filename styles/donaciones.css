@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+main{
+    padding-top:10rem
+}
+
+
+.container-donaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    color: white
+}
+
+
+.title-donaciones{
+    color: white;
+}
+
+.title-donaciones h1{
+    border-bottom: 2px solid red;
+} 
+
+.donaciones{
+    font-size: 1.5rem;
+    margin-top: 40px;
+    margin-bottom: 19px;
+}
+
+.donaciones a{
+    color: white;
+    background-color: #d00000;
+    text-decoration: none;
+    width: 8rem;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.donaciones-1{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+.donaciones-2{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    margin-top:3rem;
+}
+
+.donaciones-3{
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    margin-top:3rem;
+}
+
+
+.mafia1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mafia2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mafia3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bandas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.negocios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auto2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auto3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precio{
+    display: flex;
+    justify-content: center;
+}
+
+.precio a p{
+    margin-left: 29px;
+}
+
+.precio a:hover{
+    transform: scale(1.1)
+}
