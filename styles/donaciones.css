@@ -24,7 +24,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 6rem;
+    margin-top:4rem;
+    margin-bottom:4rem;
     color: white
 }
 
@@ -54,23 +55,30 @@ main{
 .donaciones-1{
     display: flex;
     justify-content: space-around;
-    width: 50vw;
+    width: 55vw;
 }
 
 .donaciones-2{
     display: flex;
     justify-content: space-around;
-    width: 50vw;
-    margin-top:3rem;
+    width: 55vw;
+    margin-top: 6rem;
 }
 
 .donaciones-3{
     display: flex;
     justify-content: space-around;
-    width: 50vw;
+    width: 55vw;
+    margin-top:6rem;
+}
+/* 
+.donaciones-4{
+    display: flex;
+    justify-content: space-around;
+    width: 55vw;
     margin-top:3rem;
 }
-
+ */
 
 .mafia1{
     display: flex;
@@ -92,30 +100,35 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .negocios{
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .auto1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .auto2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .auto3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .precio{
@@ -129,4 +142,64 @@ main{
 
 .precio a:hover{
     transform: scale(1.1)
+}
+
+.desc-mafia {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.desc-vip{
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+
+.medios-de-pago{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 11rem
+}
+
+.medios-de-pago .title{
+    display:flex;
+    justify-content:center
+}
+
+.medios-de-pago h3{
+    border-bottom: 2px solid red;
+} 
+
+.medios-de-pago .icons{
+    display:flex;
+    justify-content:center
+}
+
+.medios-de-pago .icons1 img{
+    height: 4rem;
+
+}
+
+.icons1 {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    font-size: 4rem;
+    width: 50vw;
+}
+
+.icons2 {
+    display: flex;
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    font-size: 4rem;
+}
+
+.medios-de-pago .icons2 img{
+    height: 4rem;
+
 }

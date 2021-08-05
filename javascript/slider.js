@@ -11,24 +11,24 @@ slider.insertAdjacentElement('afterbegin', sliderSectionLast);
 function  Next(){
   let sliderSectionFirst = document.querySelectorAll('.slider__section')[0];
   slider.style.marginLeft = "-200%";
-  slider.style.transition = "all 1.5s";
+  slider.style.transition = "all 1s";
   setTimeout(function(){
     slider.style.transition = "none";
     slider.insertAdjacentElement('beforeend', sliderSectionFirst);
     slider.style.marginLeft = "-100%";
-  }, 1500)
+  }, 2500)
 }
 
 function  Prev(){
   let sliderSection = document.querySelectorAll(".slider__section");
   let sliderSectionLast = sliderSection[sliderSection.length - 1];
   slider.style.marginLeft = "0";
-  slider.style.transition = "all 1.5s";
+  slider.style.transition = "all 1s";
   setTimeout(function(){
     slider.style.transition = "none";
     slider.insertAdjacentElement('afterbegin', sliderSectionLast);
     slider.style.marginLeft = "-100%";
-  }, 1500)
+  }, 1000)
 }
 
 
@@ -42,7 +42,7 @@ btnLeft.addEventListener('click', function(){
 
 setInterval(function(){
   Next();
-},9000);
+},7000);
 
 
 console.log("")

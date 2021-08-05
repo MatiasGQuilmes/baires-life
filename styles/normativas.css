@@ -25,7 +25,8 @@ main{
     flex-direction: column;
     align-items: center;
     color: white;
-    margin-top: 6rem;
+    margin-top:4rem;
+    margin-bottom:4rem;
 }
 
 .title-normativas h1{

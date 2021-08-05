@@ -385,6 +385,7 @@ header label:hover{
     width: 27rem;
     padding: 1rem;
     transition: all .4s ease;
+    height: 20rem;
  }
 
  .modal-2 img:hover {
@@ -414,6 +415,7 @@ header label:hover{
     width: 27rem;
     padding: 1rem;
     transition: all .4s ease;
+    height: 20rem;
 }
  .modal-3 img:hover {
     transform: scale(1.01);
@@ -510,3 +512,7 @@ footer {
     background: #212020;
 }
 
+.text-bandas{
+    margin-top:3rem;
+    color: red;
+}
