@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: black ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+main{
+    padding-top:10rem;
+    display: flex;
+    justify-content:center
+}
+
+.container-servidores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4rem;
+    margin-bottom:4rem;
+    color: white;
+    width: 80vw;
+    
+}
+
+.title-servidores h1{
+    border-bottom: 2px solid red
+ }
+ 
+
+.servidores{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55vw;
+    height: 70vh;
+}
+
+.servidores img{
+    height: 32rem;
+    margin-top: 10px;
+}
+
+.bairescraft{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.cs-go{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servidores h3{
+    font-size: 26px;
+}

@@ -483,7 +483,7 @@ footer {
 
 .founder {
     color: white;
-    margin-right: 6rem;
+    margin-right: 9rem;
     font-size: 21px;
 }
 
@@ -515,4 +515,13 @@ footer {
 .text-bandas{
     margin-top:3rem;
     color: red;
+}
+
+
+@media screen and (min-width: 1024px){
+    .nav-menu li a {
+        padding: 20px;
+        font-size: 18px;
+       
+    }
 }
