@@ -518,7 +518,7 @@ footer {
 }
 
 
-@media screen and (min-width: 1024px){
+@media screen and (max-width: 1024px){
     .nav-menu li a {
         padding: 20px;
         font-size: 18px;
