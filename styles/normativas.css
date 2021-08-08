@@ -114,3 +114,49 @@ main{
 .bandas:hover{
     transform: scale(1.1);
 }
+
+@media screen and (min-width: 320px){
+
+    .normativas-container{
+        margin-top: 0;
+    }
+    
+    .title-normativas h1{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        text-align: center;
+    }
+    .normativas{
+        width: 100vw;
+    }
+    .normativas-1{
+        display: block;
+        margin-top: 20px;
+        width: 100vw;
+    }
+    .normativas-2{
+        display: block;
+        margin-top: unset;
+    }
+
+    .normativas-1 div {
+        padding-top: 20px;
+        width: 100vw;
+    }
+
+    .normativas-2 div {
+        padding-top: 20px;
+        width: 100vw;
+    }
+
+    .pfa{
+        width: 100vw;
+    }
+
+    .same{
+        width: 100vw;
+    }
+
+
+
+}

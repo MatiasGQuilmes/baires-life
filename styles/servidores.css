@@ -65,3 +65,36 @@ main{
 .servidores h3{
     font-size: 26px;
 }
+
+
+@media screen and (min-width: 320px){
+
+ 
+    .container-servidores{
+        width: 100vw;
+        margin-top: unset;
+    }
+
+     .title-servidores h1{
+        margin-left: 4rem;
+        margin-right: 4rem;
+        text-align: center;
+    }
+    .servidores{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .servidores img{
+        height: 16rem;
+    }
+
+    .bairescraft{
+        margin-top: 2rem;
+    }
+    .cs-go{
+        margin-top: 1.5rem;
+    }
+
+
+}
