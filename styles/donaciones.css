@@ -308,3 +308,49 @@ main{
         padding-top: 15px;
     }
 }
+
+@media screen and (min-width: 1024px){
+
+    .donaciones{
+
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+    }
+
+    .donaciones-1{
+        width: unset;
+        display: flex;
+    }
+    .donaciones-2{
+        width: unset;
+        display: flex;
+    }
+    .donaciones-3{
+        width: unset;
+        display: flex;
+        flex-direction: unset;
+    }
+    .donaciones-1 div {
+        width: unset;
+    }
+    .donaciones-2 div {
+        width: unset;
+    }
+    .donaciones-3 div{
+        width: unset;
+    }
+
+    /* medios de pago */
+    .icons1{
+        flex-direction: unset;
+    }
+    .icons2{
+        flex-direction: unset;
+    }
+    .icons3{
+        flex-direction: unset;
+    }
+
+}

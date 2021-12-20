@@ -86,15 +86,35 @@ main{
     }
 
     .servidores img{
-        height: 16rem;
+        height: 21rem;
     }
 
     .bairescraft{
         margin-top: 2rem;
+        width: 20vw;
     }
     .cs-go{
         margin-top: 1.5rem;
+        width: 20vw;
     }
 
 
+}
+
+
+@media screen and (min-width: 1024px){
+
+    .servidores{
+        width: 55vw ;
+        flex-direction: unset;
+    }
+}
+
+@media screen and (min-width: 1300px){
+
+    .servidores{
+        width: 55vw ;
+        flex-direction: unset;
+        justify-content: space-around;
+    }
 }

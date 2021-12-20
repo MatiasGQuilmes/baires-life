@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: sans-serif;
     background-color: black;
+    width: 100%
 }
 
 li{
@@ -465,14 +466,14 @@ footer {
         margin-right: 5rem;
     }
 
-    .slider__btn--right{
-        display: none;
+    /* .slider__btn--right{
+        display: unset;
     }
 
     .slider__btn--left{
-        display: none;
+        display: unset;
     }
-
+ */
     .icono-menu {
         margin-left: 15px;
         display: flex;
@@ -697,7 +698,7 @@ footer {
     } 
 
     .slider__btn{
-        display: none;
+        display: unset;
     }
 
     .title-bienv{
@@ -776,7 +777,7 @@ footer {
         height: 8rem;
         justify-content:center;
         position: fixed;
-        width: 100%;
+        width: 100vw;
         z-index: 9;
     }
     
@@ -828,10 +829,10 @@ footer {
     }
     
     .nav-menu li a{
-        padding:68px;
+        padding:20px;
         text-decoration: none;
         color: white;
-        font-size: 20px;
+        font-size: 25px;
         font-weight: bolder;
     }
     
@@ -942,4 +943,19 @@ footer {
     
 
 
+}
+
+@media screen and (min-width: 1400px){
+
+    .nav-menu li a {
+        padding:7rem !important;
+    }
+
+    .slider__section{
+        height: 80%;
+    }
+    
+    .title-bienv{
+        margin-top: -5rem !important;
+    }
 }

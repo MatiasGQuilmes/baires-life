@@ -160,3 +160,30 @@ main{
 
 
 }
+
+@media screen and (min-width: 1024px){
+
+    .normativas{
+
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+
+    }
+
+    .normativas-1{
+        width: unset;
+    }
+    .normativas-2{
+        width: unset;
+        margin-top: 18px;
+    }
+
+    .normativas-1 div {
+        width: unset;
+    }
+    .normativas-2 div {
+        width: unset;
+    }
+
+}
